@@ -59,6 +59,15 @@ nav ul.main-menu {
 	background: url(../header-grad-top.png) 50% 0 no-repeat;
 }
 
+#zone-header a:link,
+#zone-header a:visited {
+	color: white;
+}
+
+#zone-header a:hover {
+	color: #BBB;
+}
+
 .front .zone-header IMG {
 	margin-left: 1em;
 }
@@ -88,10 +97,16 @@ nav ul.main-menu {
 
 /* FOOTER ZONE */
 .zone-footer-wrapper {
+	border-top: 1px solid white;
 	background: #5b0d12; 
 }
 
 .region-footer-first {
+	color: #eee;
+	font-size: 95%;
+}
+
+.region-footer-second {
 	color: #bbb;
 	font-size: 80%;
 }
