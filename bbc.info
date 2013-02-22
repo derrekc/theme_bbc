@@ -1,5 +1,5 @@
-name = 'bbs'
-description = ''
+name = 'bbc'
+description = 'Default Theme for Butler Basic Consulting website'
 core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
