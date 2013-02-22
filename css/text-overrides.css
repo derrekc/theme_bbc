@@ -1,0 +1,7 @@
+BODY {
+	font: 14px/1.5 Verdana, Helvetica, Arial, sans-serif;
+}
+
+.zone-menu .main-menu a {
+	text-transform: uppercase;
+}	
