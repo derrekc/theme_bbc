@@ -1,6 +1,14 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
+BODY {
+	background-color: #5b0d12;
+}
+
+/* HEADER SECTION */
+.section-header {
+	background-color: white;
+}	
 a:link, a:visited {
 	color: #5b0d12;
 	text-decoration: underline;
@@ -51,12 +59,22 @@ nav ul.main-menu {
 	background: url(../header-grad-top.png) 50% 0 no-repeat;
 }
 
+.front .zone-header IMG {
+	margin-left: 1em;
+}
+
 /* ELEMENTS THAT NEED TOP MARGIN */
 .zone-branding-wrapper,
 .zone-preface-wrapper,
 .zone-content-wrapper,
-.zone-postscript-wrapper {
+.zone-postscript-wrapper,
+.zone-footer-wrapper {
 	padding-top: 1em;
+}
+
+/* adjustment for the front page PREFACE wrapper */
+.front .zone-preface-wrapper {
+	padding-top: 2em;
 }
 
 /* CONTENT SECTION */
@@ -68,4 +86,17 @@ nav ul.main-menu {
 	color: #5b0d12;
 }
 
+/* FOOTER ZONE */
+.zone-footer-wrapper {
+	background: #5b0d12; 
+}
 
+.region-footer-first {
+	color: #bbb;
+	font-size: 80%;
+}
+
+/* ZONE MENU */
+.zone-menu .main-menu a {
+	padding-top: 10px;
+}	
